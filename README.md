@@ -16,9 +16,11 @@ Ce projet est une application Symfony éducative créée dans le cadre d'un atel
 - `templates/services/showService.html.twig` : Template affichant les données dynamiques du service.
 
 ## � Captures d'écran
+📸 Captures d'écran
+
 ![Page d'accueil](assets/homepage.png)
 
-![Page de service](assets/service_nome.png)
+![Page Service](assets/service_nome.png)
 
 ## �🚀 Installation et Démarrage
 
