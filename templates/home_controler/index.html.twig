@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil - Atelier Symfony{% endblock %}
+
+{% block body %}
+<div class="page-container">
+    <section class="hero-card">
+        <div class="hero-text">
+            <h1>Bienvenue sur l'atelier Symfony</h1>
+            <p>Apprenez le routing, les contrôleurs et l'affichage Twig avec une page d'accueil professionnelle.</p>
+            <p>Cette application montre comment utiliser des routes dynamiques et des redirections simples.</p>
+        </div>
+        <div class="hero-image-wrapper">
+            <img src="{{ asset('build/homepage.png') }}" alt="Illustration de la page d'accueil" class="hero-image" />
+        </div>
+    </section>
+
+    <section class="info-card">
+        <h2>Votre contrôleur</h2>
+        <p>Le contrôleur se trouve dans <code>src/Controller/HomeControlerController.php</code> et la vue dans <code>templates/home_controler/index.html.twig</code>.</p>
+    </section>
+</div>
+{% endblock %}

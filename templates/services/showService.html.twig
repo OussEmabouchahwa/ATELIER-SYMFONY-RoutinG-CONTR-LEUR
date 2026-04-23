@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Service {{ name }}{% endblock %}
+
+{% block body %}
+<div class="page-container service-page">
+    <div class="service-card">
+        <img src="{{ asset('build/service_nome.png') }}" alt="Service {{ name }}" class="service-image" />
+        <div class="service-content">
+            <h1>Service : {{ name }}</h1>
+            <p>Bienvenue sur la page du service <strong>{{ name }}</strong>. Cette présentation utilise une image dédiée pour un rendu plus professionnel.</p>
+            <p>Utilisez l'URL <code>/service/{{ name }}</code> pour afficher le service dynamique.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
